@@ -17,7 +17,7 @@ Vue.use(VueRouter)
 Vue.use(VueResource)
 
 Vue.http.headers.common['Authorization'] = 'Bearer ' + localStorage.getItem('id_token')
-Vue.http.options.root = 'http://forumapi.dev:8000'
+Vue.http.options.root = 'http://162.243.79.206.xip.io'
 
 export var router = new VueRouter
 export default Vue
